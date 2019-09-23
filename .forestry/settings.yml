@@ -9,7 +9,7 @@ sections:
   label: Layout
   create: documents
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: index.html
   label: Home Page

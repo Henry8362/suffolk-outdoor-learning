@@ -15,5 +15,6 @@ fields:
   name: categories
   label: categories
 pages:
+- _layouts/home.html
 - contact.md
 - _posts/2019-09-24-i-am-testing-making-a-post.md
