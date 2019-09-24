@@ -1,4 +1,30 @@
 ---
 label: Product
 hide_body: true
-fields: []
+fields:
+- name: product_name
+  type: text
+  config:
+    required: false
+  label: Product name
+  description: this should be the name of the item.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: 'products description '
+- name: price
+  type: number
+  label: price
+  description: 'RRP '
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
